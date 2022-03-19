@@ -1,0 +1,1 @@
+"C:\Program Files\NASM\"nasm.exe -Xvc -f win32 -o "Debug\printf.obj" "D:\Язык C\PrintF\PrintF\printf.asm"

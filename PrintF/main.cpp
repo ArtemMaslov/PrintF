@@ -4,7 +4,12 @@ extern "C" void PrintF(const char* format, ...);
 
 int main(int argc, char* argv[])
 {
+	int d = 0;
+	scanf("%d", &d);
+
 	printf("main\n");
+
+	getchar();
 
 	PrintF("Hello printf!\n");
 

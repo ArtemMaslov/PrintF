@@ -8,7 +8,6 @@ extern _printf			 ; msvcrt.dll
 global _PrintF
 
 global _ItoaDec
-
 section .text
 
 ;-------------------------------------------------------------------------

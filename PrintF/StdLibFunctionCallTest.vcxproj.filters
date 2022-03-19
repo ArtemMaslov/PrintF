@@ -20,8 +20,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="..\..\PrintF\printf.asm">
+    <NASM Include="printf.asm">
       <Filter>Source Files</Filter>
-    </CustomBuild>
+    </NASM>
   </ItemGroup>
 </Project>

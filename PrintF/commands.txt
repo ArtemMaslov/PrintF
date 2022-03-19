@@ -1,0 +1,6 @@
+
+golink /console /fo main.exe main.o printf.obj kernel32.dll user32.lib msvcrt.dll /entry _main
+
+gcc -c -S main.cpp -masm=intel -m32
+
+golink /console tests.obj printf.obj /fo printf.exe kernel32.dll msvcrt.dll
